@@ -9,8 +9,6 @@ It is designed to be reusable and can be easily integrated into any app (e.g., a
 ---
 
 
----
-
 ## ✨ Features Implemented
 - **Intro Animation**:
   - Scale from 0 → 1
@@ -29,6 +27,11 @@ It is designed to be reusable and can be easily integrated into any app (e.g., a
   - Scale factors
 
 ---
+
+## 🎥 Preview
+
+<video src="https://github.com/sayedabdul-aziz/swap_home/blob/main/screenshots/preview.mov" width="300" controls></video>
+
 
 ## 🚀 Getting Started
 
@@ -53,3 +56,4 @@ Flutter (UI framework)
 CustomPainter (for badge shape)
 
 AnimationController + TweenSequence (for animations)
+
