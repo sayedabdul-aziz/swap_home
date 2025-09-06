@@ -32,6 +32,50 @@ It is designed to be reusable and can be easily integrated into any app (e.g., a
 
 <video src="https://github.com/sayedabdul-aziz/swap_home/blob/main/screenshots/preview.mov" width="300" controls></video>
 
+## 📂 Project Structure
+
+ ```bash
+lib/
+│
+├── components/ # Reusable UI components
+│ ├── buttons/ # Button widgets
+│ └── inputs/ # Input fields
+│
+├── core/ # Core utilities and app-level configs
+│ ├── constants/ # Fonts, images, shadows
+│ │ ├── app_fonts.dart
+│ │ ├── app_images.dart
+│ │ └── app_shadows.dart
+│ ├── extensions/ # Extensions & helpers
+│ │ └── size_helper.dart
+│ ├── routes/ # Navigation system
+│ │ ├── navigation.dart
+│ │ ├── route_names.dart
+│ │ └── routes.dart
+│ ├── services/ # App services (API, local storage, etc.)
+│ └── utils/ # Shared utilities
+│ ├── ├──colors.dart
+│ ├── ├──themes.dart
+│ └── ├──text_styles.dart
+│
+├── features/ # Feature-based modules
+│ ├── home/ # Home module
+│ │ ├── data/
+│ │ └── presentation/
+│ │ ├── ├──bloc/
+│ │ ├── ├──page/
+│ │ └── ├──widgets/
+│ └── main/ # Main app module
+│ │ ├── data/
+│ │ └── presentation/
+│ │ ├── ├── bloc/
+│ │ ├── ├──page/
+│ │ └── ├──widgets/
+│
+└── main.dart
+```
+
+
 
 ## 🚀 Getting Started
 
@@ -56,4 +100,5 @@ Flutter (UI framework)
 CustomPainter (for badge shape)
 
 AnimationController + TweenSequence (for animations)
+
 
