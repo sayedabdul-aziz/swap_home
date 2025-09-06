@@ -1,0 +1,1 @@
+ /Users/elsayed.abdelaziz/Desktop/swap_ui/.dart_tool/flutter_build/ffdd0d65554e813d8f75df57e08e3e41/native_assets.json: 
